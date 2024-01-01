@@ -1,6 +1,8 @@
 This is a small project aimed at demonstrating basic functionalities of docker in the form of images and pulling/running docker images.
 
-To run this project, run the following 2 commands in the commandline
+I will assume that you have downloaded docker and have managed to log in the docker service through the terminal.
+
+To run this project, run the following 2 commands in the terminal.
 
 docker pull xleetsuperhax/quote_generator:latest
 docker run -p 8080:8080 xleetsuperhax/quote_generator
